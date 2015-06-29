@@ -1,6 +1,6 @@
 ofxFiducialFinder
 ================
-ofxFiducialFinder uses CV to track fiducial tagged objects using ofxOpenCv. It's like an openFrameworks-based TUIO addon, done without messages. Tested with 0.8.4 in OSX 10.8.5
+ofxFiducialFinder tracks fiducial-tagged objects using ofxOpenCv. It's like an openFrameworks-based TUIO addon, done without messages. Tested with 0.8.4 in OSX 10.8.5
 
 
 Note
