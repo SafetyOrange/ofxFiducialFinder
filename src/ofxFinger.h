@@ -142,7 +142,7 @@ public:
 		glPushMatrix();
 		glTranslatef(current.xpos + _x, current.ypos + _y, 0);
 		ofSetColor(255, 0, 0);//set color red
-		ofRect(0, 0, width, height); //draw finger red
+		ofDrawRectangle(0, 0, width, height); //draw finger red
 		ofDrawBitmapString(ofToString( fingerID ), 0, height+2); //draw finger number
 		glPopMatrix();
 		ofSetRectMode(OF_RECTMODE_CORNER);
