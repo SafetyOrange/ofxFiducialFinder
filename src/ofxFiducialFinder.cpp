@@ -63,7 +63,7 @@ void ofxFiducialFinder::findFiducials( ofxCvGrayscaleImage& input ) {
 	m_width		= input.width;
 	m_height	= input.height;
 	
-	const unsigned char* pixels = input.getPixels();
+	const unsigned char* pixels = input.getPixels().getData();
 	
 	//if uninitialized
 	if(!initialized){

@@ -67,7 +67,7 @@ void ofxFiducialTracker::findFiducials( ofxCvGrayscaleImage& input ) {
 	m_height	= input.height;
 	
 	//get the pixels
-	const unsigned char* pixels = input.getPixels();
+	const unsigned char* pixels = input.getPixels().getData();
 	
 	//if uninitialized
 	if(!initialized){
