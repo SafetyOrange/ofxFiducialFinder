@@ -136,7 +136,7 @@ static int check_leaf_variation( FidtrackerX *ft, Region *r, int width, int heig
 
     if( r->adjacent_region_count == 1 ){
 
-		if (std::abs(ft->average_leaf_size-((r->bottom-r->top)+(r->right-r->left)/2))>ft->average_leaf_size) return 0;
+		if (abs(ft->average_leaf_size-((r->bottom-r->top)+(r->right-r->left)/2))>ft->average_leaf_size) return 0;
 		
      } else{
         for( i=0; i < r->adjacent_region_count; ++i ){
